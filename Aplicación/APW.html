@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inicio - MangaSpain</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="../Fotos/logo.png">
+        <style>
+            * {
+                font-size: 16px;
+            }
+
+            body {
+                margin: 40px;
+            }
+
+            .contenedor-titulo {
+                padding: 5px;
+                background-image: url("../Fotos/2088716695.jpg");
+                margin: 0 -2.6%;
+                margin-top: -40px;
+                text-align: center;
+                border-bottom: 8px solid red;
+            }
+
+            .titulo {
+                font-size: 70px;
+                text-align: center;
+                display: inline-block;
+                background-color: rgba(255,255,255, 0.400);
+            }
+
+            .imagen_titulo {
+                height: 140px;
+                width: 200px;
+                position: absolute;
+                margin-top: 1.5%;
+                margin-left: -50%;
+            }
+            .titulo_body{
+                font-weight: bold;
+                border-bottom: grey 1px solid;
+                margin: 2% 0 0 -2%;
+            }
+
+            .texto_titulo_body {
+                font-size: 30px;
+                display: inline-block;
+                margin-left: 2%;
+            }
+
+            .cuerpo_pagina {
+                margin: 0 5%;
+            }
+
+            .imagenes {
+                display: grid;
+                grid-template-columns: repeat(4, 27.2%);
+                margin: 5% auto;
+            }
+
+            .imagen_grid {
+                width: 150px;
+                object-fit: contain;
+            }
+
+            .imagen_grid:hover{
+                cursor: pointer;
+                opacity: 0.8;
+                outline: rgb(50, 50, 255) solid 2px;
+            }
+
+            .imagen_grid:active{
+                cursor: pointer;
+                opacity: 1;
+                outline: rgb(0, 0, 0) solid 2px;
+            }
+
+            .tipo{
+                color: grey;
+                font-weight: bolder;
+            }
+
+            .titulo_libro {
+                font-size: 18px;
+                color: black;
+                text-decoration: none;
+            }
+
+            .titulo_libro:hover {
+                color: rgba(0, 0, 200, 0.7);
+            }
+
+            .imagenes a:visited, .imagenes a:link {
+                font-size: 18px;
+                color: black;
+                text-decoration: none;
+            }
+
+            footer{
+                margin-top: 250px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="contenedor-titulo">
+            <h1 class="titulo">MangaSpain</h1>
+            <a href="../inicio.html"><img class="imagen_titulo" src="../Fotos/logo1.png"></a>
+        </div>
+        <div class="titulo_body">
+            <p class="texto_titulo_body">
+                Tienda
+            </p>
+        </div>
+        <div class="cuerpo_pagina">
+            <div class="imagenes">
+                <div>
+                    <a href="Paginas/URL1.html"><img class="imagen_grid" src="Fotosweb/jujutsu-no-kaisen.png"></a>
+                    <p class="tipo">MANGA</p>
+                    <a href="Paginas/URL1.html"><p class="titulo_libro">Jujutsu no kaisen ep. 1</p></a>
+                    <p class="precio">8,00€</p>
+                </div>
+                <div>
+                    <a href="Paginas/URL2.html"><img class="imagen_grid" src="Fotosweb/naruto-ep1.jpg"></a>
+                    <p class="tipo">MANGA</p>
+                    <a href="Paginas/URL2.html"><p class="titulo_libro">Naruto ep. 1</p></a>
+                    <p class="precio">9,50€</p>
+                </div>
+                <div>
+                    <a href="Paginas/URL3.html"><img class="imagen_grid" src="Fotosweb/bleach.jpg"></a>
+                    <p class="tipo">MANGA</p>
+                    <a href=""><p class="titulo_libro">Bleach ep. 1</p></a>
+                    <p class="precio">8,00€</p>
+                </div>
+                <div>
+                    <a href="Paginas/URL4.html"><img class="imagen_grid" src="Fotosweb/one-piece-ep100.jpg"></a>
+                    <p class="tipo">MANGA</p>
+                    <a href=""><p class="titulo_libro">One piece ep. 1</p></a>
+                    <p class="precio">8,00€</p>
+                </div>
+            </div>
+            <div class="imagenes">
+                <div>
+                    <a href="Paginas/URL5.html"><img class="imagen_grid" src="Fotosweb/boku-no-hero.png"></a>
+                    <p class="tipo">MANGA</p>
+                    <a href=""><p class="titulo_libro">Boku no hero ep. 1</p></a>
+                    <p class="precio">8,00€</p>
+                </div>
+                <div>
+                    <a href="Paginas/URL6.html"><img class="imagen_grid" src="Fotosweb/dragon-ball-gt.png"></a>
+                    <p class="tipo">MANGA</p>
+                    <a href=""><p class="titulo_libro">Dragon ball GT ep. 1</p></a>
+                    <p class="precio">9,00€</p>
+                </div>
+                <div>
+                    <a href="Paginas/URL7.html"><img class="imagen_grid" src="Fotosweb/kuroshitsuji.png"></a>
+                    <p class="tipo">MANGA</p>
+                    <a href=""><p class="titulo_libro">kuroshitsuji ep. 1</p></a>
+                    <p class="precio">8,00€</p>
+                </div>
+                <div>
+                    <a href="Paginas/URL8.html"><img class="imagen_grid" src="Fotosweb/berserker.png"></a>
+                    <p class="tipo">MANGA</p>
+                    <a href=""><p class="titulo_libro">Berserker ep. 1</p></a>
+                    <p class="precio">8,50€</p>
+                </div>
+            </div>
+            <div class="imagenes">
+                <div>
+                    <a href="Paginas/URL9.html"><img class="imagen_grid" src="Fotosweb/noragami.png"></a>
+                    <p class="tipo">MANGA</p>
+                    <a href=""><p class="titulo_libro">Noragami ep. 1</p></a>
+                    <p class="precio">8,00€</p>
+                </div>
+                <div>
+                    <a href="Paginas/URL10.html"><img class="imagen_grid" src="Fotosweb/nana.jpg"></a>
+                    <p class="tipo">MANGA</p>
+                    <a href=""><p class="titulo_libro">Nana ep. 1</p></a>
+                    <p class="precio">7,00€</p>
+                </div>
+                <div>
+                    <a href="Paginas/URL11.html"><img class="imagen_grid" src="Fotosweb/kingdom.jpg"></a>
+                    <p class="tipo">MANGA</p>
+                    <a href=""><p class="titulo_libro">Kingdom ep. 1</p></a>
+                    <p class="precio">8,00€</p>
+                </div>
+                <div>
+                    <a href="Paginas/URL12.html"><img class="imagen_grid" src="Fotosweb/dandadan.jpg"></a>
+                    <p class="tipo">MANGA</p>
+                    <a href=""><p class="titulo_libro">Dandadan ep. 1</p></a>
+                    <p class="precio">8,00€</p>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <div>
+            Copyright @ Jorge Molina - Marcos Garcia
+        </div>
+    </footer>
+</html>
